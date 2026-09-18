@@ -3150,9 +3150,7 @@ function ResumePage() {
                   </ul>
                   <div className="flex flex-wrap gap-2">{["网页设计", "AI集成"].map((t) => <Tag key={t}>{t}</Tag>)}</div>
                 </div>
-                <p className="hidden">
-                  </p>
-                </div>
+                <p className="hidden"></p>
               </div>
             </div>
           </div>

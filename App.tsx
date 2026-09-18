@@ -3,7 +3,7 @@ import profilePhoto from "@/imports/____.png"
 import resumePDF from "@/imports/___-_____Ai_____-1.pdf?url"
 import houseLogo from "@/imports/house_logo.gif?url"
 import artsLogo from "@/imports/arts_logo.jpeg"
-import smartnoteImg from "@/imports/image-10.png"
+import smartnoteImg from "@/imports/Screenshot_2026-09-02_at_16.42.05.png"
 import img10 from "@/imports/image-10.png"
 import img11 from "@/imports/image-11.png"
 import img12 from "@/imports/image-12.png"
@@ -266,7 +266,7 @@ const PROJECTS: Project[] = [
       },
       {
         type: "image",
-        src: msuMobile,
+        src: undefined,
         alt: "移动端 A/B 测试：原始版 vs 原型版导航对比",
         small: true,
       },
@@ -2720,7 +2720,7 @@ function ProjectDetailPage({
                 </div>
               )
             }
-            if (block.type === "image") {
+            if (block.type === "image" && block.src) {
               return (
                 <div
                   key={`img-${i}`}

@@ -3132,6 +3132,26 @@ function ResumePage() {
                   <p className="text-sm text-[#7a6e60] font-[family-name:var(--font-sans)] font-light leading-relaxed mb-3">
                     针对博物馆室内导航痛点，主导从用户研究到高保真原型设计的完整体验优化流程。通过实地观察和用户访谈，发现现有导视系统导致较高访客迷失率。
                   </p>
+                  <ul className="space-y-2 mb-4">
+                    <BulletItem label="用户需求调研与痛点挖掘" text="采用实地观察+用户访谈完成全流程需求调研，从导视引导、标识清晰度和地图可用性 3 大维度梳理产品痛点，输出用户体验研究报告，提炼 4 项高优先级需求" />
+                    <BulletItem label="产品方案与原型设计" text="基于调研结论输出完整产品优化方案，使用 Figma 绘制导视地图低保真/高保真原型，规范图例、楼层分区、无障碍交互符号，输出标准化需求说明文档（PRD）" />
+                    <BulletItem label="产品落地跟进" text="同步设计、运营团队推进落地，跟踪新版本使用体验，收集游客反馈，持续迭代导视交互逻辑" />
+                  </ul>
+                  <div className="flex flex-wrap gap-2">{["用户体验研究", "原型设计"].map((t) => <Tag key={t}>{t}</Tag>)}</div>
+                </div>
+                <div className="border border-[#e5ddd0] rounded-xl p-6">
+                  <div className="flex items-start justify-between mb-1"><h3 className="font-[family-name:var(--font-sans)] font-semibold text-base text-[#1e1b16]">密歇根州立大学艺术馆官网改版</h3><span className="text-xs bg-[#f0eef9] text-[#6b5fa8] px-3 py-1 rounded font-[family-name:var(--font-sans)] shrink-0 ml-4">01/2025 - 04/2025</span></div>
+                  <p className="text-sm text-[#6b5fa8] font-[family-name:var(--font-sans)] mb-3">AI 交互产品研究员 & 交互设计师 | 美国</p>
+                  <p className="text-sm text-[#7a6e60] font-[family-name:var(--font-sans)] font-light leading-relaxed mb-3">致力于提升在线艺术展览的沉浸感与可达性。负责重构网站信息架构，并探索 AI 对话助手在在线艺术导览中的应用潜力。</p>
+                  <ul className="space-y-2 mb-4">
+                    <BulletItem label="产品需求与竞品分析" text="深度访谈 5 名核心用户 + 同类智能导览 AI 产品对标（如 Artland、Museumfy、Bloomberg Connects），识别官网移动端导航混乱、智能推荐层级薄弱等核心痛点，输出 2 篇竞品&应用场景体验分析报告" />
+                    <BulletItem label="体验架构重构与原型输出" text="基于用户洞察重新规划产品体验架构，用 Figma、AI、PS 等工具完成从低保真线框图到高保真交互原型全流程输出，优化智能检索、AI 展品推荐模块，改版后产品可用性评分提升 30%" />
+                    <BulletItem label="效果数据验证与跨团队交付" text="在测试平台部署 A/B 测试，采集热力图、点击路径、用户问卷等数据量化验证新版交互效果；向相关方展开设计评审汇报，输出完整原型与交互说明文档，保障功能顺利落地" />
+                  </ul>
+                  <div className="flex flex-wrap gap-2">{["网页设计", "AI集成"].map((t) => <Tag key={t}>{t}</Tag>)}</div>
+                </div>
+                <p className="hidden">
+                  </p>
                 </div>
               </div>
             </div>

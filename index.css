@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-calligraphy: 'Ma Shan Zheng', cursive;
+
+  --color-background: #faf9f6;
+  --color-foreground: #1e1b16;
+  --color-muted: #f2ede5;
+  --color-muted-foreground: #7a6e60;
+  --color-border: #e5ddd0;
+  --color-accent: #8b6f5e;
+  --color-accent-light: #f5ede7;
+  --color-sage: #6b7c6e;
+  --color-sage-light: #edf1ed;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: var(--color-border) transparent;
+}

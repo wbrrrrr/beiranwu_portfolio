@@ -3155,22 +3155,7 @@ function ResumePage() {
             </div>
           </div>
 
-          {/* Right sidebar */}
-          <div className="space-y-8">
-            <div className="bg-[#faf9f6] border border-[#e5ddd0] rounded-2xl p-6">
-              <h3 className="font-[family-name:var(--font-sans)] font-semibold text-base text-[#1e1b16] mb-4">
-                技能专长
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {SKILLS.map((s) => (
-                  <PurpleTag key={s}>{s}</PurpleTag>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          {/* Right sidebar */}<div className="space-y-8"><div className="bg-[#f0eef9] border border-[#e5ddd0] rounded-2xl p-6"><h3 className="font-[family-name:var(--font-sans)] font-semibold text-xl text-[#1e1b16] mb-5">教育经历</h3><p className="font-semibold text-[#1e1b16]">密歇根州立大学 <span className="font-normal text-[#7a6e60]">(THE: 105)</span></p><p className="mt-1 text-[#6b5fa8]">体验架构学士, 美国</p><p className="mt-1 text-sm text-[#7a6e60]">2022.08 - 2026.05</p><p className="mt-4 text-[#1e1b16]">GPA <b>3.4</b> <span className="text-[#7a6e60]">/4.0</span></p><p className="mt-4 text-sm text-[#7a6e60]">•　教育主题设计冠军</p></div><div><h3 className="font-[family-name:var(--font-sans)] font-semibold text-xl text-[#1e1b16] mb-5">专业技能</h3><p className="text-sm text-[#7a6e60] mb-3">产品与策略</p><div className="flex flex-wrap gap-2 mb-6">{["产品策略","敏捷开发","A/B测试","用户研究"].map((s)=><PurpleTag key={s}>{s}</PurpleTag>)}</div><p className="text-sm text-[#7a6e60] mb-3">工具与技术</p><div className="flex flex-wrap gap-2">{["Figma","NLP基础","Python","SQL"].map((s)=><PurpleTag key={s}>{s}</PurpleTag>)}</div></div><div><h3 className="font-[family-name:var(--font-sans)] font-semibold text-xl text-[#1e1b16] mb-5">持续学习</h3><ul className="space-y-3 text-[#4a4540]"><li>•　AWS与云计算</li><li>•　高级数据分析</li></ul></div></div></div></div></section>
   )
 }
 
